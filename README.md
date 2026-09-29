@@ -1,4 +1,4 @@
-# Twisted
+# Twisted <img src="assets/logo.svg" width="64" height="64" align="center" alt="logo">
 
 Twisted is a tiny (14x32mm to be precise) ESP32-S3 based platform, which has dual Xtensa LX7 cores, 4Mb of flash, 2Mb of PSRAM, 512Kb of SRAM as well as BLE and WiFi on board, paired with an [0.42" IPS LCD](https://www.buydisplay.com/0-42-inch-mini-color-tft-lcd-display-module-96x54-ips-st7735), a keypad, a Neopixel and built-in battery management with USB OTG.
 
