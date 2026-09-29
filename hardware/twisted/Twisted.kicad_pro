@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.5,
-          "width": 0.224
+          "height": 0.665,
+          "width": 0.2
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -52,15 +52,15 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.5,
-          "corner_smoothing": 2,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.0762,
           "min_island_area": 10.0,
           "min_thickness": 0.1016,
           "pad_connection": 2,
@@ -167,10 +167,10 @@
       },
       "teardrop_options": [
         {
-          "td_onpthpad": true,
+          "td_onpthpad": false,
           "td_onroundshapesonly": false,
-          "td_onsmdpad": true,
-          "td_ontrackend": false,
+          "td_onsmdpad": false,
+          "td_ontrackend": true,
           "td_onvia": true
         }
       ],
@@ -752,7 +752,7 @@
         "uuid": "837d1f86-ff5d-4d4d-898d-f2856a0e63fe"
       }
     ],
-    "used_designators": "J1,#PWR4,#PWR20,#PWR37,#PWR40,C17,C20,LED3,R1-2,TP1-6",
+    "used_designators": "X1,USBC1,U1-6,SW1-7,L1-2,LCD1,TP1-10,R1-5,LED1-3,C1-20,#PWR1-40,J1",
     "variants": []
   },
   "sheets": [
