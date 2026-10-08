@@ -143,3 +143,18 @@ I've revised that too, and it's now better than ever!
 ![](https://cdn.hackclub.com/01a07dd4-6b17-7878-9f14-fcaad158ace0/twisted-listen-rendered-back.png)
 
 It is now based on the `ES8316` audio codec, which offers two ADC channels and two stereo DACs which allowed me to put a microphone on board as well as a small audio amplifier that could be used for adding a loudspeaker for Twisted.
+
+---
+
+# Twisted Connect
+
+I have uploaded a new shield, Twisted Connect on October the 8th (a11f0e1c3315e99503966e0c169e91b8d9091f87)...
+
+![](https://cdn.hackclub.com/01a1195e-e720-7408-bbb9-da0d3babfab9/image.png)
+![](https://cdn.hackclub.com/01a11960-f23b-7eb3-b9da-d02fe3e75747/image.png)
+![](https://cdn.hackclub.com/01a11968-6706-772b-8d75-7074c0f8adf8/twisted-connect-layer-overview.gif)
+
+
+Twisted Connect is a shield for the Twisted Bus that provides the functionality of an extra microcontroller, it adds on a CH585 MCU which comes with an interesting set of peripherals, NFC/RFID (with support for reading, writing and emulating tags,) both a USB High Speed and a USB Full Speed controller as well as a BLE / 2.4GHz modem.
+
+This shield could be used for either cooperative MCU communications (using best features from both boards) or it could be used to deep sleep the main MCU (the ESP32-S3) on the Twisted to preserve power.
